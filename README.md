@@ -13,4 +13,3 @@ Clone the Project and use
   "password": "password123"
 }
 6) Now we should receive a JWT token in response if the login is successful.
-7) 
