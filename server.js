@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 // Routes
 app.use("/api/auth", authRoutes);
 
-// Connect to MongoDB
+// Connect to MongoDB this will create jwt_auth_app as a Database
 mongoose
   .connect("mongodb://localhost:27017/jwt_auth_app", {
     useNewUrlParser: true,
